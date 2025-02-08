@@ -1,0 +1,31 @@
+.item {
+  min-width: 100%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.textInner {
+  display: flex;
+  gap: 10px;
+}
+
+.textName {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+@media only screen and (min-width: 375px) {
+  .item {
+    min-width: 300px;
+  }
+}
